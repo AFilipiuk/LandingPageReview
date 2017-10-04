@@ -175,6 +175,18 @@ button {
 #sitemap-links {
     width: 30%;
     padding-left: 30px;
+    table {
+        text-align: left;
+        width: 100%;
+        th {
+            display: block;
+            font-size: 0.83em;
+            -webkit-margin-before: 1.67em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+    }
     ul {
         padding-left: 15px;
         li {

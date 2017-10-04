@@ -140,6 +140,16 @@ button {
 #sitemap-links {
   width: 30%;
   padding-left: 30px; }
+  #sitemap-links table {
+    text-align: left;
+    width: 100%; }
+    #sitemap-links table th {
+      display: block;
+      font-size: 0.83em;
+      -webkit-margin-before: 1.67em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      font-weight: bold; }
   #sitemap-links ul {
     padding-left: 15px; }
     #sitemap-links ul li {
