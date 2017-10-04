@@ -264,4 +264,12 @@ table {
     #pricing-plan {
         padding-top: 50px;
     }
+    #quote .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    .quote-txt {
+        width: 200px;
+    }
 }
