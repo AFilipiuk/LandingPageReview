@@ -69,34 +69,35 @@ nav img {
 
 .section {
     height: 90vh;
-    padding: 30px 30px 30px 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 150px;
 }
 
 #marketing {
     text-align: center;
-    padding-top: 150px;
-    /* 150px 150px;*/
-    padding-left: 15%;
-    pedding-right: 15%;
     background-color: #FFFFFF;
 }
 
-#marketing div {
+#marketing div,
+#pros div {
     float: left;
 }
 
 .txt-marketing {
-    width: 40%;
+    margin-right: 0px;
+    width: 50%;
     text-align: left;
     padding-left: 30px;
 }
 
 #pros {
     background-color: #EBEBEB;
+    text-align: center;
 }
 
 #pricing-plan {
-    background-color: #DBDBDB;
+    background-color: #E2E2E2;
 }
 
 #sitemap {
@@ -109,10 +110,11 @@ nav img {
     background-color: #EBEBEB;
 }
 
-#img-marketing {
+.img-marketing {
     height: 60%;
-    min-width: 300px;
-    width: 40%;
+    min-width: 400px;
+    margin-left: 100px;
+    width: 30%;
     background-color: #DBDBDB;
 }
 
