@@ -101,14 +101,9 @@ nav img {
     background-color: #E2E2E2;
 }
 
-#footer-legal {
-    height: 50px;
-    background-color: #EBEBEB;
-}
-
 .img-marketing {
     height: 60%;
-    min-width: 400px;
+    min-width: 300px;
     margin-left: 100px;
     width: 30%;
     background-color: #DBDBDB;
@@ -168,8 +163,8 @@ table {
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 50px;
-    height: 250px;
+    padding-top: 20px;
+    height: 230px;
     background-color: white;
 }
 
@@ -193,13 +188,15 @@ table {
     padding-bottom: 12px;
 }
 
-#sitemap-links a {
+#sitemap-links a,
+#footer-legal a {
     text-decoration: none;
     color: #000000;
     font-size: 14px;
 }
 
-#sitemap-links a:hover {
+#sitemap-links a:hover,
+#footer-legal a:hover {
     color: #535353;
 }
 
@@ -228,4 +225,25 @@ table {
 #social-links {
     width: 30%;
     padding-left: 30px;
+}
+
+#footer-legal {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    height: 30px;
+    background-color: #EBEBEB;
+    font-size: 12px;
+}
+
+#footer-legal ul {
+    list-style: none;
+    display: list-item;
+    margin: 0;
+    text-align: center;
+}
+
+#footer-legal ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
 }
